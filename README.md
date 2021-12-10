@@ -1,5 +1,5 @@
 # Introduction to React Three Fiber
-![Preview](/public/getting_started.png)
+<img width="1783" alt="Screen Shot 2021-12-10 at 4 22 49 PM" src="https://user-images.githubusercontent.com/27310187/145649868-48b8f6d3-5fa6-440f-9110-39208f24e382.png">
 
 ## 1. Setup
 
