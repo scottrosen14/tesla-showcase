@@ -6,7 +6,6 @@ import {
 import { Physics } from 'use-cannon';
 import { Suspense } from 'react';
 import Orbit from './components/Orbit';
-import Box from './components/Box';
 import Background from './components/Background';
 import Floor from './components/Floor';
 import ColorPicker from './components/ColorPicker';
@@ -34,7 +33,7 @@ function App() {
         });
     };
   return (
-    <div style={{height: '100vh', width: '100vw'}}>
+    <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center'}}>
       <ColorPicker />
       <CameraButtons />
       <Canvas

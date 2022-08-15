@@ -3,13 +3,11 @@ import state from '../state'
 
 const style = {
     zIndex: 1,
-    position: 'absolute',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    bottom: '5vh',
-    height: '40px',
-    width: '40px',
+    height: '50px',
+    width: '50px',
     backgroundColor: 'rgb(30, 75, 93)',
     color: 'black',
     borderRadius: '50%',
@@ -57,11 +55,21 @@ const CameraButtons = ({}) => {
         state.shouldUpdate = true;
     };
     return (
-        <>
+        <div 
+            className='button-switching-controls'
+            style={{
+                position: 'absolute',
+                width: '30%',
+                margin: 'auto',
+                display: 'flex',
+                justifyContent: 'space-between',
+                bottom: '5vh',
+                zIndex: 1
+            }}
+        >
             <button
                 onClick={e => handleClick('left')}
                 style={{
-                    left: '40vw',
                     ...style
                 }}
             >
@@ -70,13 +78,12 @@ const CameraButtons = ({}) => {
             <button
                 onClick={e => handleClick('right')}
                 style={{
-                    right: '40vw',
                     ...style
                 }}
             >
                 {'>'}
             </button>
-        </>
+        </div>
     )
 }
 
