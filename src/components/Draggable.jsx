@@ -42,7 +42,7 @@ const Draggable = props => {
                 e.object.api?.velocity.set(0,0,0)
             }
         )
-    },[children])
+    },[children, scene.orbitControls])
 
     return (
         <group ref={groupRef}>

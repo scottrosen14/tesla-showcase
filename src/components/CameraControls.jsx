@@ -1,7 +1,7 @@
 import { useFrame } from 'react-three-fiber'
 import state from '../state'
 
-const CameraControls = ({ }) => {
+const CameraControls = () => {
 
     useFrame(({ camera, scene }) => {
         if (state.activeMesh.name !== state.activeMeshName) {
@@ -15,7 +15,7 @@ const CameraControls = ({ }) => {
             scene.orbitControls.update()
             const diff =
                 camera.position.clone()
-                .sub(state.cameraPos).length()
+                    .sub(state.cameraPos).length()
             if (diff < 0.1) state.shouldUpdate = false
         }
     })

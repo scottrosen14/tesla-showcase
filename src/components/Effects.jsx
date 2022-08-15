@@ -1,7 +1,7 @@
 import { 
     EffectComposer,
     DepthOfField,
-    GodRays
+    // GodRays
 } from 'react-postprocessing'
 import { useState, useEffect } from 'react'
 import { useThree } from 'react-three-fiber'
@@ -15,22 +15,22 @@ const Effects = () => {
     }, [scene.lights])
     return (
         lights ? 
-        <EffectComposer>
-            <DepthOfField
-                focusDistance={0}
-                focalLength={0.02}
-                bokehScale={2}
-                height={480}
-            />
-            {/* {lights.map(light => 
+            <EffectComposer>
+                <DepthOfField
+                    focusDistance={0}
+                    focalLength={0.02}
+                    bokehScale={2}
+                    height={480}
+                />
+                {/* {lights.map(light => 
                 <GodRays 
                     key={light.current.uuid} 
                     sun={light.current}
                 />
             )} */}
-        </EffectComposer>
-        :
-        null
+            </EffectComposer>
+            :
+            null
     )
 }
 

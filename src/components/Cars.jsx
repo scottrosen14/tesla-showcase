@@ -3,7 +3,7 @@ import BoundingBox from './BoundingBox'
 import Model from './Model'
 import Draggable from './Draggable'
 
-const Cars = ({ }) => {
+const Cars = () => {
     return (
         <Suspense fallback={null}>
             <Draggable transformGroup>

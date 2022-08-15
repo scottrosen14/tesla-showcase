@@ -11,7 +11,7 @@ const Background = props => {
     const { gl } = useThree();
     const formatted = useMemo(() =>
         new THREE.WebGLCubeRenderTarget(
-                texture.image.height
+            texture.image.height
         ).fromEquirectangularTexture(gl, texture)
     ,[gl, texture])
 

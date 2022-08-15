@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import {
-    Canvas, useFrame
+    Canvas
 } from 'react-three-fiber';
 import { Physics } from 'use-cannon';
 import { Suspense } from 'react';

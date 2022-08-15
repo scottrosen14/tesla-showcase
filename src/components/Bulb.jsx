@@ -7,7 +7,7 @@ const Bulb = props => {
     useEffect(() => {
         if (scene.lights) scene.lights.push(ref)
         else scene.lights = [ref]
-    }, [])
+    }, [scene])
     return (
         <mesh {...props} ref={ref}>
             <pointLight

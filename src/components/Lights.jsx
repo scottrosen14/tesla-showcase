@@ -1,6 +1,6 @@
 import Bulb from './Bulb'
 
-const Lights = ({}) => {
+const Lights = () => {
     return (
         <>
             <ambientLight intensity={0.2}/>
