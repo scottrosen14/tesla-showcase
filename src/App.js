@@ -32,35 +32,35 @@ function App() {
             height: window.innerHeight
         });
     };
-  return (
-    <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center'}}>
-      <ColorPicker />
-      <CameraButtons />
-      <Canvas
-        gl={{
-          powerPreference: "high-performance",
-          antialias: false,
-          stencil: false,
-          depth: false
-        }}
-        shadowMap
-        style={{background: 'black'}}
-        camera={{ position: [7,7,7] }}
-      >
-        <Suspense fallback={<Spinner />}>
-            <Background windowDimensions={windowDimensions} />
-        </Suspense>
-        <CameraControls />
-        <Lights/>
-        <Orbit />
-        <Physics>
-          <Cars />
-          <Floor position={[0,-0.5,0]}/>
-        </Physics>
-        <Effects />
-      </Canvas>
-    </div>
-  );
+    return (
+        <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center'}}>
+            <ColorPicker />
+            <CameraButtons />
+            <Canvas
+                gl={{
+                    powerPreference: "high-performance",
+                    antialias: false,
+                    stencil: false,
+                    depth: false
+                }}
+                shadowMap
+                style={{background: 'black'}}
+                camera={{ position: [7,7,7] }}
+            >
+                <Suspense fallback={<Spinner />}>
+                    <Background windowDimensions={windowDimensions} />
+                </Suspense>
+                <CameraControls />
+                <Lights/>
+                <Orbit />
+                <Physics>
+                    <Cars />
+                    <Floor position={[0,-0.5,0]}/>
+                </Physics>
+                <Effects />
+            </Canvas>
+        </div>
+    );
 }
 
 export default App;

@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "react": "^17.0.1",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.1",
     "react-postprocessing": "^1.4.0",
     "react-scripts": "4.0.0",
@@ -27,12 +28,10 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "plugin:jest/recommended"
+      "react-app"
     ],
     "plugins": [
-      "import",
-      "eslint-plugin-jest"
+      "import"
     ],
     "rules": {
       "indent": [
