@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tesla-showcase/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/tesla-showcase/static/js/main.98371766.chunk.js",
+    "main.js.map": "/tesla-showcase/static/js/main.98371766.chunk.js.map",
+    "runtime-main.js": "/tesla-showcase/static/js/runtime-main.c14ca47a.js",
+    "runtime-main.js.map": "/tesla-showcase/static/js/runtime-main.c14ca47a.js.map",
+    "static/js/2.b1d9f4ab.chunk.js": "/tesla-showcase/static/js/2.b1d9f4ab.chunk.js",
+    "static/js/2.b1d9f4ab.chunk.js.map": "/tesla-showcase/static/js/2.b1d9f4ab.chunk.js.map",
+    "static/js/3.1deace91.chunk.js": "/tesla-showcase/static/js/3.1deace91.chunk.js",
+    "static/js/3.1deace91.chunk.js.map": "/tesla-showcase/static/js/3.1deace91.chunk.js.map",
+    "static/js/4.e81800ae.chunk.js": "/tesla-showcase/static/js/4.e81800ae.chunk.js",
+    "static/js/4.e81800ae.chunk.js.map": "/tesla-showcase/static/js/4.e81800ae.chunk.js.map",
+    "index.html": "/tesla-showcase/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/tesla-showcase/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b1d9f4ab.chunk.js.LICENSE.txt": "/tesla-showcase/static/js/2.b1d9f4ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c14ca47a.js",
+    "static/js/2.b1d9f4ab.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.98371766.chunk.js"
+  ]
+}
